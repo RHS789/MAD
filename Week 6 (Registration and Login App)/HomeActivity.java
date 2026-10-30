@@ -1,0 +1,12 @@
+package com.example.loginsqlite;
+
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class HomeActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle bd) {
+        super.onCreate(bd);
+        setContentView(R.layout.activity_home);
+    }
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/u"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="User Name" />
+
+    <EditText
+        android:id="@+id/p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/u"
+        android:layout_marginTop="50dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/rp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p"
+        android:layout_marginTop="50dp"
+        android:hint="Retype Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/su"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rp"
+        android:layout_marginTop="50dp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/si"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/su"
+        android:layout_marginTop="24dp"
+        android:text="Existing user! Go to Sign in page" />
+
+</RelativeLayout>
